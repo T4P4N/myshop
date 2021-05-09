@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-18 17:50+0530\n"
+"PO-Revision-Date: 2020-12-17 12:51+0000\n"
+"Last-Translator: b'  <rolex@example.com>'\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.3\n"
+
+#: cart/forms.py:7
+msgid "Quantity"
+msgstr "मात्रा"
+
+#: coupons/forms.py:5
+msgid "Coupon"
+msgstr "कूपन"
+
+#: myshop/settings.py:155
+msgid "English"
+msgstr "अंग्रेज़ी"
+
+#: myshop/settings.py:156
+msgid "Spanish"
+msgstr "स्पेनिश"
+
+#: myshop/settings.py:157
+msgid "Hindi"
+msgstr "हिंदी"
+
+#: myshop/urls.py:23
+msgid "admin/"
+msgstr ""
+
+#: myshop/urls.py:24
+msgid "cart/"
+msgstr ""
+
+#: myshop/urls.py:25
+msgid "orders/"
+msgstr ""
+
+#: myshop/urls.py:26
+msgid "payment/"
+msgstr ""
+
+#: myshop/urls.py:27
+#, fuzzy
+#| msgid "Coupon"
+msgid "coupons/"
+msgstr "कूपन"
+
+#: orders/models.py:11
+msgid "first name"
+msgstr "नाम"
+
+#: orders/models.py:12
+msgid "last name"
+msgstr "उपनाम"
+
+#: orders/models.py:13
+msgid "e-mail"
+msgstr "ईमेल"
+
+#: orders/models.py:14
+msgid "address"
+msgstr "पता"
+
+#: orders/models.py:15
+msgid "postal code"
+msgstr "डाक कोड"
+
+#: orders/models.py:16
+msgid "city"
+msgstr "शहर"
+
+#: orders/templates/orders/order/create.html:4
+#: orders/templates/orders/order/create.html:8
+msgid "Checkout"
+msgstr "चेक आउट"
+
+#: orders/templates/orders/order/create.html:11
+msgid "Your order"
+msgstr "आपका आदेश"
+
+#: orders/templates/orders/order/create.html:21
+#, python-format
+msgid ""
+"\n"
+"            \"%(code)s\" (%(discount)s%% off%%)\n"
+"          "
+msgstr ""
+"\n"
+"\"%(code)s\" (%(discount)s%% छूट%%)"
+
+#: orders/templates/orders/order/create.html:28
+msgid "Total"
+msgstr "कुल"
+
+#: orders/templates/orders/order/create.html:33
+msgid "Place order"
+msgstr "Place order"
+
+#: orders/urls.py:8
+msgid "create/"
+msgstr ""
+
+#: orders/urls.py:9
+msgid "admin/order/<int:order_id>/"
+msgstr ""
+
+#: orders/urls.py:10
+msgid "admin/order/<int:order_id>/pdf/"
+msgstr ""
+
+#: payment/urls.py:7
+msgid "process/"
+msgstr ""
+
+#: payment/urls.py:8
+msgid "done/"
+msgstr ""
+
+#: payment/urls.py:9
+msgid "canceled/"
+msgstr ""
+
+#: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
+msgid "My shop"
+msgstr "My shop"
+
+#: shop/templates/shop/base.html:17
+msgid "Language"
+msgstr ""
+
+#: shop/templates/shop/base.html:33
+msgid "Your cart"
+msgstr "आपकी कार्ट"
+
+#: shop/templates/shop/base.html:35
+#, python-format
+msgid ""
+"\n"
+"                %(items)s item, $%(total)s\n"
+"              "
+msgid_plural ""
+"\n"
+"                %(items)s items, $%(total)s\n"
+"              "
+msgstr[0] ""
+"\n"
+"%(items)s आइटम, $%(total)s "
+msgstr[1] ""
+"\n"
+"%(items)s आइटम, $%(total)s"
+
+#: shop/templates/shop/base.html:42
+msgid "Your cart is empty."
+msgstr "आपकी कार्ट खाली है"
+
+#: shop/templates/shop/product/detail.html:20
+msgid "Add to cart"
+msgstr "कार्ट में डालें"
